@@ -1,311 +1,508 @@
+
 <div align="center">
 
-<img src="assets/neuron-banner.svg" alt="Neuron — AI Automation Command Center" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:05060B,35:151044,70:382078,100:00E5FF&text=NEURON&fontColor=FFFFFF&fontSize=85&fontAlignY=42&desc=AUTONOMOUS%20BUSINESS%20INTELLIGENCE&descAlignY=64&descSize=16&animation=fadeIn" width="100%" alt="NEURON — Autonomous Business Intelligence"/>
 
-NEURON
-THE AI AUTOMATION OPERATING SYSTEM
-Capture leads. Activate agents. Automate workflows. Turn operations into measurable growth.
-<p>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=7CFFB2"/>
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img alt="AI-powered" src="https://img.shields.io/badge/AI--POWERED-111827?style=for-the-badge&logo=openai&logoColor=9B8CFF"/>
-  <img alt="Automation" src="https://img.shields.io/badge/AUTOMATION-111827?style=for-the-badge&logo=probot&logoColor=48E5FF"/>
-</p>
+### `ONE CORE.` `MANY MINDS.` `INFINITE POSSIBILITIES.`
 
+**The AI-powered business automation ecosystem.**
 
-ONE COMMAND CENTER. A WHOLE GROWTH WORKFLOW.
+<br/>
 
-Explore the Features · Architecture · Run Locally · Security
-</div>
+[![Platform](https://img.shields.io/badge/PLATFORM-NEURON-090B16?style=for-the-badge&logo=probot&logoColor=00E5FF)](#-the-thesis)
+[![AI](https://img.shields.io/badge/INTELLIGENCE-AI%20POWERED-090B16?style=for-the-badge&logo=openai&logoColor=00E5FF)](#-core-systems)
+[![Automation](https://img.shields.io/badge/AUTOMATION-MODULAR-090B16?style=for-the-badge&logo= n8n&logoColor=A78BFA)](#-system-architecture)
+[![Development](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-090B16?style=for-the-badge&logo=github&logoColor=5FF7FF)](#-roadmap)
 
-[!NOTE]
-Product vision / implementation status: This README describes the intended Neuron platform. A feature is only live when its backend, integrations, permissions, and error handling have actually been implemented and tested. Replace demo data and roadmap items with verified capabilities before presenting Neuron as production-ready.
+<br/>
 
-◈ The vision
-Neuron is an AI automation platform concept for teams that want to connect lead generation, CRM, outreach, AI agents, workflow orchestration, calling, meetings, and revenue insights in one workspace.
+<a href="#-core-systems">EXPLORE SYSTEMS</a> &nbsp; ◈ &nbsp;
+<a href="#-system-architecture">ARCHITECTURE</a> &nbsp; ◈ &nbsp;
+<a href="#-universal-api--integrations">INTEGRATIONS</a> &nbsp; ◈ &nbsp;
+<a href="#-roadmap">ROADMAP</a>
 
-Instead of juggling disconnected tools, Neuron aims to create one connected operating loop:
+<br/><br/>
 
-Discover → Qualify → Enrich → Engage → Schedule → Follow up → Measure → Improve
-<div align="center">
+<img src="assets/neuron-orbit.gif" width="100%" alt="NEURON animated AI agent network"/>
 
-01 / CAPTURE	02 / CONNECT	03 / AUTOMATE	04 / MEASURE
-Find potential leads	Organize relationships	Let workflows do repeatable work	Understand results
-Lead discovery	CRM & pipeline	AI agents & orchestration	Revenue analytics
-
+<sub>LEAD INTELLIGENCE &nbsp;•&nbsp; AI AGENTS &nbsp;•&nbsp; WORKFLOW AUTOMATION &nbsp;•&nbsp; BUSINESS OPERATIONS</sub>
 
 </div>
 
-⚡ The Neuron stack
-🧠 AI agent workspace
-A planned home for task-focused agents, each with a defined purpose, approved tools, scoped permissions, and observable results.
-- Agent builder concept — configure an agent's role, instructions, tools, and limits.
-- Human approval gates — require review before consequential external actions.
-- Run history — inspect inputs, outputs, status, and errors.
-- Tool connections — integrate approved APIs without exposing credentials to the browser.
-🧲 Automated lead generation
-Build a repeatable lead workflow from permitted, reliable data sources.
-- Capture leads from authorized APIs, forms, imports, and connected sources.
-- Normalize company, contact, source, and status fields.
-- Detect likely duplicates and preserve source attribution.
-- Enrich records only where access and applicable rules allow.
-- Route qualified leads into the CRM with a clear audit trail.
-Design principle: no fabricated contacts, fake verification, or claims that a source was checked when it was not.
-🗂️ Animated CRM & sales pipeline
-A unified workspace concept for the entire lead lifecycle.
+---
 
-NEW → QUALIFIED → CONTACTED → MEETING → PROPOSAL → WON / LOST
-- Searchable lead and company records
-- Owner, source, tags, notes, and next-action fields
-- Pipeline stages and deal-value tracking
-- Follow-up reminders and activity timelines
-- Duplicate checks and change history
-✉️ Outreach engine
-Plan, personalize, and monitor outreach without turning it into spam.
-- Reusable email templates and approved personalization fields
-- Draft → review → approve → send workflow
-- Delivery, reply, bounce, and opt-out tracking where supported by the provider
-- Suppression lists and contact preferences
-- Rate limits, retries, and provider error visibility
-☎️ AI-integrated calling
-A future calling workspace for authorized business conversations.
-- Call queue and contact context
-- Human-controlled start/stop and escalation
-- Clear disclosure and consent workflows where required
-- Call outcome, summary, and next-step capture
-- Configurable limits and a human handoff path
-Calling requires a legitimate provider integration, lawful use, and applicable consent. Never call emergency numbers, impersonate people, or bypass opt-outs.
-🔁 Workflow automation
-Connect events to actions through readable, testable workflows.
-```mermaid
-flowchart LR
-    A[Lead captured] --> B[Validate & deduplicate]
-    B --> C[Score lead]
-    C --> D{Meets criteria?}
-    D -- Yes --> E[Create or update CRM record]
-    E --> F[Draft outreach]
-    F --> G{Human approval}
-    G -- Approved --> H[Send via connected provider]
-    G -- Rejected --> I[Return to review]
-    H --> J[Track response]
-    J --> K[Update pipeline & metrics]
-    D -- No --> L[Save for later review]
+## ◈ 01 — THE THESIS
+
+<div align="center">
+
+### BUSINESS OPERATIONS, RECONNECTED.
+
+</div>
+
+NEURON is an AI-powered business automation ecosystem designed to unify lead generation, CRM, outreach, AI calling, configurable agents, workflow automation, integrations, and business intelligence into one connected platform.
+
+The goal isn't to add another disconnected business tool.
+
+**The goal is to build the connective intelligence layer between them.**
+
+| PRINCIPLE | MISSION |
+|:---|:---|
+| `01 / UNIFY` | Bring business operations into one connected ecosystem. |
+| `02 / AUTOMATE` | Reduce repetitive work with configurable workflows. |
+| `03 / INTELLIGENCE` | Help qualify leads, interpret data, and support decisions. |
+| `04 / INTEGRATE` | Connect supported external services through APIs. |
+| `05 / SCALE` | Design modular systems that can expand with business needs. |
+
+<div align="center">
+
+```text
+       DISCOVER
+          ↓
+       QUALIFY
+          ↓
+       ENGAGE
+          ↓
+       AUTOMATE
+          ↓
+        ANALYZE
+          ↓
+       OPTIMIZE
 ```
-Potential workflow building blocks:
-- Trigger, condition, transform, delay, and action nodes
-- Retry policies and failure branches
-- Run logs, timestamps, and status indicators
-- Test mode before live execution
-- Per-workflow permissions and execution limits
-💸 AI-integrated revenue calculator
-Turn assumptions into transparent estimates—not guaranteed outcomes.
-- Lead volume and qualification-rate assumptions
-- Meeting, conversion, and average deal-value inputs
-- Estimated pipeline and revenue scenarios
-- Best-case / expected / conservative comparisons
-- Editable assumptions with a visible calculation trail
-Forecasts are estimates. Actual revenue depends on conversion, pricing, costs, timing, and many other factors.
 
-📊 Stats & specs provider
-A planned analytics layer that makes operational activity easier to understand.
-- Leads captured and qualified
-- Outreach attempts and provider-reported outcomes
-- Meetings booked and pipeline movement
-- Workflow success, failure, and retry rates
-- Agent run counts, duration, and errors
-- Revenue assumptions versus observed outcomes
-Metrics should be sourced from actual events and connected providers. Label estimates, missing data, and demo data clearly.
-🗓️ Smart meeting handler
-- Availability checks through an authorized calendar integration
-- Time-zone-aware scheduling
-- Confirmation and reminder workflows
-- Rescheduling and cancellation handling
-- Meeting notes and CRM activity updates
-🔌 Private integration API
-A controlled integration layer for connecting Neuron to other tools.
-- Authenticated API endpoints
-- Scoped tokens and permission checks
-- Request validation and rate limits
-- Webhooks with signature verification
-- Versioning, logs, and revocation support
-Never expose private API credentials in frontend code, public repositories, logs, or README examples.
-🎛️ The command-center experience
-The intended interface combines a dark, high-contrast workspace with focused panels for pipeline health, agent activity, workflow execution, and revenue scenarios.
-<div align="center">
-
-MODULE	WHAT IT SHOULD SHOW
-Command Center	Key metrics, alerts, recent events
-Lead Intelligence	Sources, qualification, enrichment status
-CRM	Contacts, companies, deals, activities
-Outreach	Drafts, approvals, delivery outcomes
-Agent Lab	Agent configurations, runs, tool permissions
-Workflow Studio	Nodes, branches, logs, retries
-Call Desk	Authorized call queue, outcomes, handoffs
-Revenue Lab	Inputs, formulas, scenario comparisons
-Stats & Specs	Source-backed analytics and system health
-Integration Vault	Connected apps, scopes, key status
-
+*One connected workflow. Multiple specialized systems.*
 
 </div>
 
-Visual effects belong in the actual web app. GitHub sanitizes README HTML and does not execute custom JavaScript, so interactive panels and sound effects must be implemented in the application itself.
-🧬 How the system connects
+---
+
+## ◈ 02 — CORE SYSTEMS
+
+<div align="center">
+
+`INTELLIGENCE` × `AUTOMATION` × `INTEGRATION`
+
+</div>
+
+### ⟡ CRM — Customer Relationship Management
+
+A centralized workspace for organizing customer relationships and tracking opportunities.
+
+- Centralized contact and prospect records
+- Lead pipeline and status tracking
+- Interaction history and follow-up organization
+- Customer relationship visibility
+- Integration with supported lead and outreach workflows
+
+### ⟡ Lead Generation
+
+A system for discovering, collecting, and organizing potential business prospects through configured sources.
+
+- Lead discovery and collection
+- Prospect data organization
+- Source-based lead management
+- Qualification support
+- CRM handoff and workflow integration
+
+*Available data depends on connected providers, permissions, API access, and applicable platform rules.*
+
+### ⟡ Outreach System
+
+An outreach layer for organizing prospect communication and supporting personalized engagement.
+
+- AI-assisted message personalization
+- Prospect-specific communication workflows
+- Follow-up coordination
+- Outreach status tracking
+- Campaign performance analysis
+
+### ⟡ Self-Addable AI Agents
+
+A configurable agent system intended to let authorized users create specialized agents for distinct tasks.
+
+- Task-specific agent configurations
+- Defined responsibilities and instructions
+- Supported tool and API connections
+- Reusable automation components
+- Centralized agent management
+
+### ⟡ Private Integration API
+
+A dedicated integration layer for connecting NEURON with authorized applications and supported external services.
+
+- API-based service connections
+- Authentication and authorization
+- Configurable integration endpoints
+- Structured request and response handling
+- Extensible provider architecture
+
+### ⟡ Universal Domain & Integrated Authentication
+
+A unified access layer intended to simplify access to the platform and supported connected services.
+
+- Domain-based platform access
+- Authentication integration
+- Protected API access
+- Consistent integration configuration
+- Access-control support
+
+*Actual domain routing, single sign-on, and authentication behavior depend on implementation.*
+
+### ⟡ Workflow Automation
+
+A system for connecting triggers, conditions, and actions into repeatable business workflows.
+
+- Trigger-based execution
+- Multi-step task sequences
+- Cross-service automation
+- Configurable workflow logic
+- Execution monitoring and error handling
+
+### ⟡ AI Cold Calling System
+
+An AI-assisted calling system intended to support calling workflows and follow-up organization.
+
+- Configurable calling workflows
+- Supported voice-provider integrations
+- Call outcome tracking
+- Follow-up coordination
+- Connection to lead management workflows
+
+*Calling requires a compatible provider, appropriate permissions, and compliance with applicable consent and telemarketing laws.*
+
+### ⟡ Lead Rater
+
+A lead-prioritization system based on configurable scoring criteria and available prospect information.
+
+| SIGNAL | INTERPRETATION |
+|:---:|:---|
+| 🟢 **GREEN** | Higher priority under configured scoring rules |
+| 🟡 **YELLOW** | More qualification or information needed |
+| 🔴 **RED** | Lower priority under configured scoring rules |
+
+Scores are estimates based on configured rules and available data, not guarantees of conversion.
+
+### ⟡ AI Revenue Calculator
+
+A planning tool for estimating possible business outcomes using user-defined assumptions.
+
+- Lead and conversion assumptions
+- Average deal value
+- Estimated deal volume
+- Revenue scenario comparisons
+- Business planning support
+
+**Illustrative formula**
+
+\[
+\text{Estimated Revenue}
+=
+\text{Expected Deals}
+\times
+\text{Average Deal Value}
+\]
+
+*Estimates are not promises of actual revenue.*
+
+### ⟡ SMART Meeting Handler
+
+A meeting-management system intended to help coordinate scheduling and meeting-related tasks.
+
+- Meeting organization
+- Scheduling workflow support
+- Calendar integration
+- Meeting follow-up coordination
+- Connected automation workflows
+
+### ⟡ AI Stat Repo
+
+A centralized space intended to organize business statistics, operational metrics, and analytical outputs.
+
+- Business metric organization
+- Performance summaries
+- Historical data tracking
+- Reporting support
+- Decision-support insights
+
+---
+
+## ◈ 03 — SYSTEM ARCHITECTURE
+
+<div align="center">
+
+### ONE PLATFORM. SPECIALIZED SYSTEMS. CONNECTED SERVICES.
+
+</div>
+
 ```mermaid
 flowchart TB
-    UI[Neuron Web Dashboard] --> API[Node.js API Layer]
-    API --> AUTH[Authentication & Authorization]
-    AUTH --> CRM[CRM / Lead Service]
-    AUTH --> WF[Workflow Orchestrator]
-    AUTH --> AG[AI Agent Service]
-    AUTH --> OUT[Outreach / Calling Adapters]
-    CRM --> DB[(Database)]
-    WF --> QUEUE[Job Queue / Scheduler]
-    QUEUE --> AG
-    QUEUE --> OUT
-    AG --> LLM[Approved AI Provider]
-    OUT --> EXT[External Service APIs]
-    CRM --> ANALYTICS[Event & Analytics Layer]
-    WF --> ANALYTICS
-    AG --> ANALYTICS
-    OUT --> ANALYTICS
-    ANALYTICS --> UI
+    USER(["AUTHORIZED USER"])
+
+    subgraph PLATFORM["NEURON PLATFORM"]
+        UI["Platform Interface"]
+        AUTH["Authentication & Access"]
+        CORE["Central Platform Layer"]
+
+        subgraph INTELLIGENCE["INTELLIGENCE SYSTEMS"]
+            LEADS["Lead Generation"]
+            CRM["CRM"]
+            RATE["Lead Rater"]
+            OUT["Outreach System"]
+            CALL["AI Cold Calling"]
+            REV["AI Revenue Calculator"]
+            MEET["SMART Meeting Handler"]
+            STATS["AI Stat Repo"]
+        end
+
+        subgraph AUTOMATION["AUTOMATION SYSTEMS"]
+            AGENTS["Self-Addable AI Agents"]
+            WORKFLOW["Workflow Automation"]
+        end
+
+        API["Private Integration API"]
+        DOMAIN["Universal Domain & Authentication"]
+    end
+
+    EXT["Authorized External Services"]
+    DATA[("Configured Data Storage")]
+
+    USER --> UI
+    UI --> DOMAIN
+    DOMAIN --> AUTH
+    AUTH --> CORE
+
+    CORE --> LEADS
+    CORE --> CRM
+    CORE --> RATE
+    CORE --> OUT
+    CORE --> CALL
+    CORE --> REV
+    CORE --> MEET
+    CORE --> STATS
+
+    CORE --> AGENTS
+    CORE --> WORKFLOW
+
+    LEADS <--> CRM
+    CRM <--> RATE
+    CRM <--> OUT
+    CRM <--> CALL
+
+    AGENTS <--> WORKFLOW
+    AGENTS --> API
+    WORKFLOW --> API
+    CORE --> API
+    API <--> EXT
+
+    CORE <--> DATA
+
+    classDef core fill:#11132B,stroke:#5FF7FF,color:#FFFFFF,stroke-width:2px
+    classDef ai fill:#17112D,stroke:#A78BFA,color:#FFFFFF
+    classDef automation fill:#101E28,stroke:#5FF7FF,color:#FFFFFF
+    classDef external fill:#10151F,stroke:#7183A8,color:#FFFFFF
+
+    class CORE,AUTH,DOMAIN core
+    class LEADS,CRM,RATE,OUT,CALL,REV,MEET,STATS ai
+    class AGENTS,WORKFLOW automation
+    class EXT,DATA external
 ```
-Suggested separation of responsibilities
-- Frontend: user interface, accessible controls, visual feedback.
-- Node.js backend: business logic, validation, authorization, integration calls.
-- Database: durable records with access controls and backups.
-- Worker / queue: background jobs, retries, schedules, and idempotency.
-- AI provider adapter: model requests, budgets, structured outputs, and safety checks.
-- Integration adapters: email, calendars, calling, and approved data sources.
-- Observability: structured logs, metrics, traces, and audit events.
-🧰 Suggested project structure
-Adapt this to the code that actually exists in your repository.
-neuron/
-├── assets/
-│   └── neuron-banner.svg
-├── public/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── src/
-│   ├── config/
-│   ├── middleware/
-│   ├── routes/
-│   ├── services/
-│   │   ├── crm/
-│   │   ├── leads/
-│   │   ├── agents/
-│   │   ├── workflows/
-│   │   ├── outreach/
-│   │   ├── calling/
-│   │   ├── meetings/
-│   │   └── analytics/
-│   ├── integrations/
-│   ├── jobs/
-│   └── utils/
-├── tests/
-├── .env.example
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── server.js
-└── README.md
-Do not create empty folders just to match this diagram; build the structure as modules become real.
-🚀 Run Neuron locally
-These steps assume a Node.js application with a package.json and a working start script. Adjust commands to match your actual project.
-1. Requirements
-- A supported Node.js LTS release
-- npm
-- The repository cloned to your machine
-2. Install dependencies
+
+### Architecture principles
+
+- **Modularity:** Each system has a distinct responsibility.
+- **Interoperability:** Modules connect through defined interfaces.
+- **Security:** Protected operations require appropriate access controls.
+- **Extensibility:** New agents and integrations can be added as the implementation grows.
+- **Reliability:** Failures, retries, and incomplete operations should be handled deliberately.
+
+*This diagram represents the intended system design. It does not imply that every module, connection, or integration is already operational.*
+
+---
+
+## ◈ 04 — UNIVERSAL API & INTEGRATIONS
+
+The integration layer is intended to provide a consistent way for NEURON modules to communicate with supported external services.
+
+```mermaid
+flowchart LR
+    A["NEURON MODULE"] --> B["AUTHENTICATION"]
+    B --> C["PRIVATE INTEGRATION API"]
+    C --> D["SUPPORTED PROVIDER"]
+    D --> E["RESPONSE"]
+    E --> C
+    C --> F["VALIDATED RESULT"]
+    F --> A
+
+    classDef a fill:#11132B,stroke:#5FF7FF,color:#FFFFFF
+    classDef b fill:#17112D,stroke:#A78BFA,color:#FFFFFF
+
+    class A,F a
+    class B,C,D,E b
+```
+
+### Integration goals
+
+- Consistent API access patterns
+- Protected credentials and tokens
+- Structured request and response formats
+- Configurable service connections
+- Error handling and operational logging
+- Extensible provider support
+
+### Security requirements
+
+- Never commit real credentials to a public repository.
+- Keep private keys on the server or in a suitable secrets manager.
+- Apply least-privilege permissions.
+- Validate incoming requests and external responses.
+- Protect sensitive endpoints with server-side authorization.
+- Avoid exposing tokens or sensitive information in logs.
+
+---
+
+## ◈ 05 — TECH STACK
+
+NEURON's stack should reflect the technologies actually implemented in the repository.
+
+| LAYER | RESPONSIBILITY |
+|:---|:---|
+| **Frontend** | Platform interface and user experience |
+| **Backend** | Business logic and API endpoints |
+| **AI Layer** | AI-powered tasks and configurable agents |
+| **Database** | Persistent application and business data |
+| **Authentication** | Identity and access management |
+| **Integration Layer** | External APIs and connected services |
+| **Automation Engine** | Triggers, conditions, and workflow execution |
+| **Deployment** | Hosting, monitoring, and application delivery |
+
+Update this table with the exact frameworks, services, and versions used by the project.
+
+---
+
+## ◈ 06 — SETUP
+
+### Prerequisites
+
+- Git
+- The runtime required by the application
+- Project dependencies
+- Required environment variables
+- Credentials for integrations being tested
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+cd YOUR_PROJECT_DIRECTORY
+```
+
+For a typical npm-based project:
+
+```bash
 npm install
-3. Configure environment variables
-Create a local .env file based on .env.example.
-cp .env.example .env
-On Windows PowerShell, use:
-Copy-Item .env.example .env
-Example .env.example with placeholders only:
-NODE_ENV=development
-PORT=3000
+```
 
-# Add provider keys only when that integration is implemented.
-# AI_PROVIDER_API_KEY=
-# DATABASE_URL=
-# SESSION_SECRET=
-# EMAIL_PROVIDER_API_KEY=
-# CALENDAR_PROVIDER_API_KEY=
-# CALLING_PROVIDER_API_KEY=
-Never commit the real .env file or real credentials.
-4. Start the app
-Use the script defined in package.json, for example:
+Configure the environment according to the actual application, then run the relevant script defined in `package.json`.
+
+For example:
+
+```bash
 npm run dev
-If your project has no dev script yet, inspect package.json and add a suitable script for your server entry point before running it. Do not assume all integrations work just because the server starts.
-🔐 Security-first by design
-Neuron may handle contact data, business information, and external-service credentials. Security is part of the product—not a final polish step.
-- Keep secrets in environment variables or a dedicated secrets manager.
-- Commit .env.example, never real .env values.
-- Enforce authentication and authorization on the server for every protected route.
-- Use least-privilege, scoped credentials and rotate/revoke compromised keys.
-- Validate and sanitize inputs; use parameterized database queries.
-- Apply rate limits, request-size limits, and safe error messages.
-- Verify webhook signatures and defend against replay where relevant.
-- Add audit logs for sensitive actions without logging secrets or unnecessary personal data.
-- Require confirmation for consequential actions such as bulk outreach or live calling.
-- Respect consent, opt-outs, data minimization, retention, and applicable laws.
-- Test authorization failures, duplicate events, retries, and provider outages.
-If a secret was ever committed, revoke or rotate it immediately. Deleting it in a later commit does not make the exposed credential safe.
-🧪 Quality bar
-Before calling a module production-ready, aim for:
-- [ ] Input validation and useful error messages
-- [ ] Authentication and permission checks
-- [ ] Loading, empty, success, and failure states
-- [ ] Unit tests for business rules
-- [ ] Integration tests for external services
-- [ ] Retry and duplicate-event handling
-- [ ] Logs and metrics that avoid exposing secrets
-- [ ] Clear handling of missing or stale data
-- [ ] Accessible keyboard navigation and reduced-motion support
-- [ ] Documentation of configuration and limitations
-🗺️ Roadmap
-Update these checkboxes only when the corresponding work is genuinely complete.
-- [ ] Core dashboard and navigation
-- [ ] Authentication and role-based permissions
-- [ ] CRM contacts, companies, deals, and activity history
-- [ ] Lead intake, validation, deduplication, and source tracking
-- [ ] Lead scoring with explainable criteria
-- [ ] Outreach drafts, approval flow, and opt-out handling
-- [ ] Workflow engine with logs, retries, and test mode
-- [ ] AI agent configuration and run history
-- [ ] Revenue scenario calculator
-- [ ] Source-backed analytics and system-health metrics
-- [ ] Calendar integration and meeting handling
-- [ ] Calling-provider integration with consent safeguards
-- [ ] Integration API, webhooks, and token revocation
-- [ ] Automated tests, deployment checks, and monitoring
-🧩 Design principles
-Useful over flashy. Animation should clarify status and hierarchy—not hide important information.
+```
 
-Human control. AI can propose, classify, summarize, and prepare actions; sensitive external actions should have appropriate approval and safeguards.
+**Note:** These are example commands. Use the scripts and instructions defined by the actual project.
 
-Evidence over hype. Metrics must come from real events. Estimates must be labeled as estimates.
+### Environment configuration
 
-Modular by design. Integrations should be replaceable, permissions scoped, and failures isolated.
+Example placeholders only:
 
-Accessible by default. Respect reduced-motion preferences, provide keyboard access, and never make sound essential to understanding an alert.
-🤝 Contributing
-Contributions are welcome once the repository's contribution process is defined.
-1. Open an issue describing the problem or proposed feature.
-2. Discuss significant changes before investing in a large implementation.
-3. Create a focused branch.
-4. Add or update tests and documentation.
-5. Open a pull request with a clear summary and verification steps.
-Do not include real customer data, credentials, or private provider responses in issues or pull requests.
-📜 License
-No license has been specified in this repository yet. Unless and until a license is added, standard copyright rules apply; do not assume others have permission to reuse the code.
+```env
+DATABASE_URL=
+AI_PROVIDER_API_KEY=
+INTEGRATION_API_KEY=
+AUTH_SECRET=
+```
+
+Use the exact variable names expected by the application. Never commit real secrets.
+
+---
+
+## ◈ 07 — SECURITY
+
+Security must be considered throughout the development and deployment lifecycle.
+
+| AREA | EXPECTATION |
+|:---|:---|
+| Authentication | Verify identity before granting access |
+| Authorization | Restrict protected operations to permitted users |
+| Secrets | Keep credentials outside public source code |
+| Input validation | Validate user input and external data |
+| Data protection | Protect sensitive data in transit and at rest |
+| Logging | Avoid storing passwords, tokens, or unnecessary sensitive data |
+| Reliability | Handle failures without leaking private implementation details |
+
+### Production-readiness checklist
+
+- [ ] Verify server-side authentication and authorization.
+- [ ] Confirm private keys are not exposed to browsers.
+- [ ] Review database permissions and access policies.
+- [ ] Test input validation and error handling.
+- [ ] Configure rate limits where appropriate.
+- [ ] Review external API permissions.
+- [ ] Establish data retention and deletion procedures.
+- [ ] Test backups, recovery, and monitoring.
+
+These are recommended controls to verify—not claims that all controls are already implemented.
+
+---
+
+## ◈ 08 — ROADMAP
+
+The roadmap tracks intended development milestones.
+
+- [ ] Core platform foundation
+- [ ] CRM and lead management
+- [ ] Lead generation integrations
+- [ ] Lead Rater and qualification logic
+- [ ] AI-assisted Outreach System
+- [ ] AI Cold Calling integration
+- [ ] Self-Addable AI Agents
+- [ ] Workflow Automation engine
+- [ ] Private Integration API
+- [ ] Universal Domain & Integrated Authentication
+- [ ] SMART Meeting Handler
+- [ ] AI Revenue Calculator
+- [ ] AI Stat Repo and analytics
+- [ ] Testing and production hardening
+- [ ] Monitoring, reliability, and deployment improvements
+
+Update the checklist only when the corresponding work has actually been completed and verified.
+
+---
+
+## ◈ 09 — VISION
+
 <div align="center">
 
-NEURON
-Connect the signals. Automate the work. See the outcomes.
+### FROM DISCONNECTED TO CONNECTED.
 
-<sub>Built iteratively. Secured intentionally. Measured honestly.</sub>
+NEURON aims to bring business systems, configurable AI agents, and supported external services into one coordinated ecosystem.
+
+The long-term vision is a platform where specialized systems can exchange information, assist with operational tasks, automate repeatable workflows, and help businesses make better-informed decisions.
+
+<br/>
+
+**ONE ECOSYSTEM.**
+
+**CONNECTED INTELLIGENCE.**
+
+**SMARTER OPERATIONS.**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:05060B,45:241456,100:00E5FF" width="100%" alt="NEURON footer"/>
+
+<sub>NEURON — INTELLIGENCE CONNECTED. WORKFLOWS UNIFIED.</sub>
+
 </div>
